@@ -1,0 +1,19 @@
+.formbody{
+    height:100vh;
+    background-color: antiquewhite;
+}
+
+.formContainer{
+    margin-left: 500px;
+    
+    width: 400px;
+    
+}
+
+.formContainer > form {
+    padding-top: 80px;
+}
+
+.registerPage{
+    margin-left: 100px;
+}
