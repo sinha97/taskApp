@@ -20,7 +20,7 @@ const Login = () => {
         if ((passwordlog !== pass) || (emaillog !== mail)) {
             alert('please enter correct crendentials');
         } else {
-            history.push('/');
+            history.push('/home');
         }
     }
     return (

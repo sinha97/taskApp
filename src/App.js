@@ -17,13 +17,12 @@ const App = () => {
           <Header />
           <ProductPage />
         </Route>
-        
-        <Route path="/signup" component={Register} />
-        <Route path="/signin" component={Login} />
-        <Route path="/">
+        <Route path="/home">
           <Header />
           <HomePage />
         </Route>
+        <Route path="/signin" component={Login} />
+        <Route path="/" component={Register} />
       </Switch>
     </Router>
   );

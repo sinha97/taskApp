@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 import './Product.css';
 
@@ -14,7 +14,7 @@ const Product = ({ title, price, image }) => {
                     <strong>{price}</strong>
                 </p>
             </div>
-            <button onClick={() => history.push('/productpage')}>About Product</button>
+            <button onClick={() => history.push('/productpage')}>AddToCart</button>
         </div>
     )
 }
